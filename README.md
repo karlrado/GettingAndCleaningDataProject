@@ -18,5 +18,5 @@ This is the github repository containing the work for the Class Project in the G
 tidy <- run_analysis()
 ```
 
-The zip file containing the data can be obtained from
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
+The zip file containing the data can be obtained from 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
