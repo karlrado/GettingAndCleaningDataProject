@@ -6,7 +6,7 @@ A full description of the experiment and the data can be found at http://archive
 The data itself is found at
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-In this project, the meaning or values of any of the data is NOT changed.  In general, a subset of the data is extracted and a summary presented in the tidy data returned by the R script.  So, the above sources may be consulted for details about the data.
+In this project, the meaning or values of any of the data is NOT changed.  In general, a subset of the data is extracted and a summary presented in the tidy data returned by the R script.  So, the above sources may be consulted for details about the data.  The details of the original data are not repeated here in this code book.
 
 ## Data Transformations Performed by the run_analysis.R Script
 Please examine the R script for the finer details, but the major operations performed by the script are: 
@@ -14,9 +14,9 @@ Please examine the R script for the finer details, but the major operations perf
 1. Read the "test" and the "train" data sets.
 2. Select only the "Features" that contain "mean" or "std" in the feature names in both data sets.
 3. Combine the "test" and the "train" data sets.
-  * NOTE: The assignment specifies combining these two data sets first, then selecting the columns.  However, due to the way the R script is written, the order implemented here is staill valid.
+  * NOTE: The assignment specifies combining these two data sets first, then selecting the columns.  However, due to the way the R script is written, the order implemented here is still valid.
 4. Form a new data frame from the Subject vector, the text form of the Activity vector, and the Features.
-5. Form the tidy data frame using ddply() to perform a column-wise mean, grouped by Subject and Activity.
+5. Form the tidy data frame using ddply() to perform a column-wise mean, grouped by Subject and Activity, from the previous data frame.
 6. Write the tidy data to an output file.
 7. Return the tidy data as the function return value.
 
