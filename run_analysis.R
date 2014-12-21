@@ -1,4 +1,4 @@
-processData <- function() {
+run_analysis <- function() {
     
     ## Required packages
     ##
