@@ -10,6 +10,8 @@ This is the github repository containing the work for the Class Project in the G
 
 # How to Run the Script
 
+The script requires the "plyr" library.
+
 1. Set R working directory to a folder that contains:
   1. The run_analysis.R script
   2. The test data unzipped into a folder (in the R working directory) called UCI HAR Dataset.  This should be the folder created after unzipping the zip file.
